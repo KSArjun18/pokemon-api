@@ -1,0 +1,138 @@
+body {
+    width: 100%;
+    margin: auto;
+    background-color:gray;
+  }
+  
+  h1 {
+   
+    font-family:fantasy;
+    font-style:oblique;
+    font-stretch:extra-condensed;
+    -webkit-text-stroke-width: 4.5px;
+    -webkit-text-stroke-color:rgb(48, 48, 251) ;
+    font-size: 80px;
+    margin-top: 20px; 
+    text-align: center;
+    color:rgb(113, 39, 39) (255, 222, 0);
+  }
+  
+  .content-responsive {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 3%;
+  }
+  b{
+    color:red;
+  }
+  span{
+    font-style: bold;
+  }
+  .card-header{
+    font-size: x-large;
+    color: blue;
+  }
+  img {
+    margin-top: 10px;
+    width: 200px;
+    height: 180px;
+    
+  }
+  .abilities{
+    font-size: larger;
+    color:blue ;
+  }
+  .weight{
+    font-size: larger;
+    color:blue;
+  }
+  
+  .card {
+    margin: 2% 3%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid rgb(247, 61, 61);
+    border-radius: 10px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, orange (255, 222, 0), rgb(223, 208, 106)); 
+  }
+  
+  .moves-responsive {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    max-height: 60vh;
+  }
+  .btn-secondary {
+    color: red ;
+    background-color:rgb(244, 235, 235);
+    border-color: blue;
+  }
+  
+  #btns{
+    margin-top: 50px;
+  
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    margin-bottom: 10px;
+    width: 90%;
+  }
+  
+  .moves {
+    margin: 5% 0%;
+  }
+  
+  .buttons button,
+  .moves {
+    padding: 0.5% 1.1%;
+    border: 1px solid #f0ebe3;
+    color: blue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+  }
+  
+  .buttons button:hover,
+  .moves:hover,
+  .reload:hover {
+    color: #fafdd6;
+    background-image: linear-gradient(blue, rgb(109, 163, 237));
+    cursor: pointer;
+  }
+  
+  
+  @media (max-width: 800px) {
+    .content-responsive {
+      flex-direction: column;
+      align-items: center;
+    }
+    .card {
+      margin: 2% auto;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    body{
+      width: 105%;
+      }
+    .card-body{
+      width: 80%;
+    }
+  
+    .buttons button {
+      padding: 2% 3%;
+      font-size: 0.50rem;
+    }
+  }
